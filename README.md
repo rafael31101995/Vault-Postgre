@@ -9,6 +9,7 @@
         kubectl get pods -n postgres
 
 - Criando um pod com base no postgre.yml
+
         kubectl apply -f postgre.yml -n postgres
 
 - Fazendo login com o usuario root do vault.
