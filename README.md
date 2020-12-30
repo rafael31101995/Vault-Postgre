@@ -1,12 +1,20 @@
 # Vault-Postgre
 
+__O que é o Vault e pra que serve?__
+
+
+Vault é uma ferramenta desenvolvida pela HashiCorp, essa ferramenta tem como objetivo fazer um armazenamento inteligente de “segredos”, podem ser eles, chaves de ssh, dados de acesso a um banco e dados, api tokens e assim por diante. 
+
+[Saiba mais...](https://www.netbr.com.br/hashicorp-brasil/)
+
 ## Pré requisitos
 
-- [minikube com vault e consul instalados em um mesmo namespace.](https://learn.hashicorp.com/tutorials/vault/kubernetes-minikube)
+[minikube com vault e consul instalados em um mesmo namespace.](https://learn.hashicorp.com/tutorials/vault/kubernetes-minikube)
 
 ## Configurando integração do vault com o postgreSQL
 
 - Criando um namespace chamado postgres.
+
     ```bash
     $ kubectl create namespace postgres
     ```
